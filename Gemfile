@@ -1,0 +1,11 @@
+source 'https://rubygems.org'
+
+gem 'sinatra', '~> 1.3.2'
+gem 'sinatra-contrib', '~> 1.3.1'
+gem 'thin', '~> 1.3.1'
+gem 'haml', '~> 3.1.6'
+gem 'pg', '~> 0.13.2'
+gem 'sass', '~> 3.1.19'
+gem 'compass', '~> 0.12.1'
+gem 'shotgun', '~> 0.9'
+gem 'i18n', '~> 0.6.0'

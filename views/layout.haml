@@ -1,0 +1,16 @@
+!!!
+%html
+  %head
+    %title= 'My Application'
+    %link{ rel: 'stylesheet', href: '/stylesheets/screen.css' }
+    %script{ type: 'text/javascript', src: "https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js" }
+    %script{ type: 'text/javascript', src: "/javascripts/application.js" }
+
+  %body
+    %header
+
+    %section.content
+      %section
+        = yield
+
+    %footer
